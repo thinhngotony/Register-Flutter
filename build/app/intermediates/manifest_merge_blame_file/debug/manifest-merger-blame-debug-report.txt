@@ -1,0 +1,252 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.flutter.firebase.example.firebaseauth"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:9:5-66
+14-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:9:22-64
+15
+16    <application
+16-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:11:5-51:19
+17        android:name="io.flutter.app.FlutterApplication"
+17-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:12:9-57
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\00f482bd244d0d4f5747d8261f58e943\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:14:9-43
+21        android:label="firebaseauth"
+21-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:13:9-37
+22        android:supportsRtl="true" >
+22-->[com.facebook.android:facebook-login:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\a555dc2943866db869a9e474fcb418e7\jetified-facebook-login-5.5.1\AndroidManifest.xml:28:18-44
+23        <activity
+23-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:15:9-26:20
+24            android:name="com.flutter.firebase.example.firebaseauth.MainActivity"
+24-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:16:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:19:13-163
+26            android:hardwareAccelerated="true"
+26-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:20:13-47
+27            android:launchMode="singleTop"
+27-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:17:13-43
+28            android:theme="@style/LaunchTheme"
+28-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:18:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:21:13-55
+30            <intent-filter>
+30-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:22:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:23:17-68
+31-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:23:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:24:17-76
+33-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36        <!--
+37             Don't delete the meta-data below.
+38             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+39        -->
+40        <meta-data
+40-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:29:9-30:54
+41            android:name="com.facebook.sdk.ApplicationId"
+41-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:29:20-65
+42            android:value="@string/facebook_app_id" />
+42-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:30:13-52
+43
+44        <activity
+44-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:32:9-35:48
+45            android:name="com.facebook.FacebookActivity"
+45-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:32:19-63
+46            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+46-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:33:13-113
+47            android:label="@string/app_name"
+47-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:35:13-45
+48            android:theme="@style/com_facebook_activity_theme" />
+48-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\99b9e1f0e17acdcf3cfca31b90f879c5\jetified-facebook-common-5.5.1\AndroidManifest.xml:32:13-63
+49        <activity
+49-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:36:9-45:20
+50            android:name="com.facebook.CustomTabActivity"
+50-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:37:13-58
+51            android:exported="true" >
+51-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:38:13-36
+52            <intent-filter>
+52-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:39:13-44:29
+53                <action android:name="android.intent.action.VIEW" />
+53-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:40:17-69
+53-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:40:25-66
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:41:17-76
+55-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:41:27-73
+56                <category android:name="android.intent.category.BROWSABLE" />
+56-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:42:17-78
+56-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:42:27-75
+57
+58                <data android:scheme="@string/fb_login_protocol_scheme" />
+58-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:43:17-75
+58-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:43:23-72
+59            </intent-filter>
+60        </activity>
+61
+62        <meta-data
+62-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:48:9-50:33
+63            android:name="flutterEmbedding"
+63-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:49:13-44
+64            android:value="2" />
+64-->C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\android\app\src\main\AndroidManifest.xml:50:13-30
+65
+66        <service
+66-->[:firebase_auth] C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+67            android:name="com.google.firebase.components.ComponentDiscoveryService"
+67-->[:firebase_auth] C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+68            android:directBootAware="true"
+68-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6f187287bbc9c29b2d5c7acb6e706ac7\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+69            android:exported="false" >
+69-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+70            <meta-data
+70-->[:firebase_auth] C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+71-->[:firebase_auth] C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:firebase_auth] C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+73            <meta-data
+73-->[:firebase_core] C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+74-->[:firebase_core] C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_core] C:\Users\Tony\Downloads\Compressed\flutter_firebase_authentication_sign_up-master\flutter_firebase_authentication_sign_up-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+77                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+77-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+79        </service>
+80
+81        <activity
+81-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+82            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+82-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+83            android:excludeFromRecents="true"
+83-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+84            android:exported="true"
+84-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+85            android:launchMode="singleTask"
+85-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+86            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+86-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\df41cc87673e3f39d30041cedf2f337f\jetified-firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+88        <activity
+88-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\46120634b799eda24cc994f0897ab42a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+89            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+89-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\46120634b799eda24cc994f0897ab42a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+90            android:excludeFromRecents="true"
+90-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\46120634b799eda24cc994f0897ab42a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\46120634b799eda24cc994f0897ab42a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\46120634b799eda24cc994f0897ab42a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+93        <!--
+94            Service handling Google Sign-In user revocation. For apps that do not integrate with
+95            Google Sign-In, this service will never be started.
+96        -->
+97        <service
+97-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\46120634b799eda24cc994f0897ab42a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+98            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+98-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\46120634b799eda24cc994f0897ab42a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+99            android:exported="true"
+99-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\46120634b799eda24cc994f0897ab42a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+100            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+100-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\46120634b799eda24cc994f0897ab42a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+106
+107        <provider
+107-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6f187287bbc9c29b2d5c7acb6e706ac7\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+108            android:name="com.google.firebase.provider.FirebaseInitProvider"
+108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6f187287bbc9c29b2d5c7acb6e706ac7\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+109            android:authorities="com.flutter.firebase.example.firebaseauth.firebaseinitprovider"
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6f187287bbc9c29b2d5c7acb6e706ac7\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+110            android:exported="false"
+110-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6f187287bbc9c29b2d5c7acb6e706ac7\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+111            android:initOrder="100" />
+111-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6f187287bbc9c29b2d5c7acb6e706ac7\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+112
+113        <meta-data
+113-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\ce53febe539132800a46a9079cdd025f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+114            android:name="com.google.android.gms.version"
+114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\ce53febe539132800a46a9079cdd025f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\ce53febe539132800a46a9079cdd025f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+116
+117        <activity android:name="com.facebook.CustomTabMainActivity" />
+117-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\99b9e1f0e17acdcf3cfca31b90f879c5\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:9-71
+117-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\99b9e1f0e17acdcf3cfca31b90f879c5\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:19-68
+118        <!--
+119         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+120         with the application context. This config is merged in with the host app's manifest,
+121         but there can only be one provider with the same authority activated at any given
+122         point; so if the end user has two or more different apps that use Facebook SDK, only the
+123         first one will be able to use the provider. To work around this problem, we use the
+124         following placeholder in the authority to identify each host application as if it was
+125         a completely different provider.
+126        -->
+127        <provider
+127-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:39:9-42:40
+128            android:name="com.facebook.internal.FacebookInitProvider"
+128-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:40:13-70
+129            android:authorities="com.flutter.firebase.example.firebaseauth.FacebookInitProvider"
+129-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:41:13-72
+130            android:exported="false" />
+130-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:42:13-37
+131
+132        <receiver
+132-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:44:9-50:20
+133            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+133-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:45:13-86
+134            android:exported="false" >
+134-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:46:13-37
+135            <intent-filter>
+135-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:47:13-49:29
+136                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+136-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:17-95
+136-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:25-92
+137            </intent-filter>
+138        </receiver>
+139        <receiver
+139-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:51:9-58:20
+140            android:name="com.facebook.CampaignTrackingReceiver"
+140-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:52:13-65
+141            android:exported="true"
+141-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:53:13-36
+142            android:permission="android.permission.INSTALL_PACKAGES" >
+142-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:54:13-69
+143            <intent-filter>
+143-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:55:13-57:29
+144                <action android:name="com.android.vending.INSTALL_REFERRER" />
+144-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:17-79
+144-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\6e7dc22f21b446bc68cbbf9066559377\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:25-76
+145            </intent-filter>
+146        </receiver>
+147    </application>
+148
+149</manifest>

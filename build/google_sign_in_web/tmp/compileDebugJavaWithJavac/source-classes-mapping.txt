@@ -1,0 +1,4 @@
+io/flutter/plugins/google_sign_in_web/GoogleSignInWebPlugin.java
+ io.flutter.plugins.google_sign_in_web.GoogleSignInWebPlugin
+io/flutter/plugins/google_sign_in_web/BuildConfig.java
+ io.flutter.plugins.google_sign_in_web.BuildConfig
