@@ -1,6 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/flutter/firebase/example/firebaseauth/BuildConfig.java
- com.flutter.firebase.example.firebaseauth.BuildConfig
-com/flutter/firebase/example/firebaseauth/MainActivity.java
- com.flutter.firebase.example.firebaseauth.MainActivity
